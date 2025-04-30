@@ -34,6 +34,7 @@ Bu uygulama, geliştiricilere ve güvenlik uzmanlarına XSS açıklarını test 
 
 ![resim](https://github.com/user-attachments/assets/e8e8012a-d7f9-40d6-9caa-9fdb1a11d83a)
 
+![resim](https://github.com/user-attachments/assets/96f63db7-81db-400e-9301-a24f32671731)
 
 
 
@@ -46,13 +47,6 @@ Bu uygulama, geliştiricilere ve güvenlik uzmanlarına XSS açıklarını test 
    ```bash
    python3 -m http.server 4455
    
-![resim](https://github.com/user-attachments/assets/48cf8088-f243-4d95-92d1-d187704198ca)
-
-
-
-![resim](https://github.com/user-attachments/assets/4c3d98b9-0f6a-4b3b-b8d2-09f05ed90894)
-
-
 
 
 
