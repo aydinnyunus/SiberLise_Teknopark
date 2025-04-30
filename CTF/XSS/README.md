@@ -2,6 +2,11 @@
 
 Bu proje, Stored XSS (Cross-Site Scripting) güvenlik açığını test ortamında exploit etmek amacıyla oluşturulmuş basit bir web uygulamasıdır.
 
+Amaç
+
+Bu uygulama, geliştiricilere ve güvenlik uzmanlarına XSS açıklarını test etme ve anlama imkanı sağlar. Eğitim ve araştırma amaçlıdır.
+
+
 ## Gereksinimler
 
 - [Podman](https://podman.io/getting-started/installation)
@@ -18,23 +23,24 @@ Bu proje, Stored XSS (Cross-Site Scripting) güvenlik açığını test ortamın
    ```bash
    podman run -d -p 9090:80 --name xss-vuln xss-app
 
+![resim](https://github.com/user-attachments/assets/716eae15-d81a-4ff5-94ea-26c36ad5833a)
+
+
+
 3. **Tarayıcıdan uygulamaya erişin:**
 
    ```bash
 
    http://localhost:9090
 
-Amaç
-
-Bu uygulama, geliştiricilere ve güvenlik uzmanlarına XSS açıklarını test etme ve anlama imkanı sağlar. Eğitim ve araştırma amaçlıdır.
+![resim](https://github.com/user-attachments/assets/24d9a48c-3a95-4f61-96b4-f18024761c23)
 
 
 
-![resim](https://github.com/user-attachments/assets/ec9b50d2-7e96-4e71-8ab4-74ae10fcba54)
 
-![resim](https://github.com/user-attachments/assets/e8e8012a-d7f9-40d6-9caa-9fdb1a11d83a)
 
-![resim](https://github.com/user-attachments/assets/96f63db7-81db-400e-9301-a24f32671731)
+
+
 
 
 
@@ -45,8 +51,17 @@ Bu uygulama, geliştiricilere ve güvenlik uzmanlarına XSS açıklarını test 
 1. **HTTP Sunucu Başlatın:**
 
    ```bash
-   python3 -m http.server 4455
-   
+   python3 -m http.server 5555
+
+
+![resim](https://github.com/user-attachments/assets/ffa87b00-35f6-4a16-a801-1f72046e8da8)
+
+
+![resim](https://github.com/user-attachments/assets/479f7f9e-d1a2-42c0-a9d8-0b1e161f15c6)
+
+
+
+https://github.com/user-attachments/assets/3dfd7186-7fd9-4c40-9fef-559407954a56
 
 
 
